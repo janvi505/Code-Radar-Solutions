@@ -1,7 +1,8 @@
 #include <stdio.h>
 int main(){
     char a;
-    printf("a single character is %c",a);
     scanf("%c",&a);
+    printf("value of single character is %c",a)
+
     return 0;
 }
