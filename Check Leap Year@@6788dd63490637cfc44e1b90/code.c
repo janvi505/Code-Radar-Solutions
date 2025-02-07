@@ -11,5 +11,4 @@ else if(a%100==0){
 else(a%4==0){
     printf("Leap year %d",a);
 }
-
 }
