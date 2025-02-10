@@ -12,7 +12,6 @@ int main(){
         printf("%d",c);
     }
     else(a=b=c){
-        printf("%d",a);
+        printf("%d",a,b,c);
     }
-    
 }
