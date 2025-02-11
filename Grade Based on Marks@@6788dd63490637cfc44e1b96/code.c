@@ -4,6 +4,7 @@ int main(){
     scanf("%d",&a);
     if(a>=90){
         printf("A");
+    }
     else if(a>=80 && a<90){
         printf("B");
     }
@@ -17,4 +18,4 @@ int main(){
         printf("F");
     }
     }
-}
+
