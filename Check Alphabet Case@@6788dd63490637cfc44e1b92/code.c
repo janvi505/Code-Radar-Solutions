@@ -5,7 +5,10 @@ int main(){
     if ((a)isupper){
         printf("Uppercase");
     }
-    else{
+    else if((a).islower){
         printf("Lowercase");
+    }
+    else{
+        printf("Not an alphabet");
     }
 }
