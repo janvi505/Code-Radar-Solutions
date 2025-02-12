@@ -2,24 +2,22 @@
 int main(){
     char a;
     scanf("%c",&a);
-    switch(a){
-        case 1:
+    if(a='A'){
         printf("Excellent");
-        break;
-        case 2:
+    }
+    else if(a='B'){
         printf("Good");
-        break;
-        case 3:
+    }
+    else if(a='C'){
         printf("Average");
-        break;
-        case 4:
+    }
+    else if(a='D'){
         printf("Below Average");
-        break;
-        case 5:
-        printf("Fail");
-        break;
-        case 6:
+    }
+    else if(a='F'){
+        printf("Fail")
+    }
+    else{
         printf("Invalid grade");
-        break;
     }
 }
